@@ -641,10 +641,9 @@ export default function App() {
             <div className="relative z-10 flex flex-col md:flex-row items-center gap-8">
               <div className="flex-shrink-0">
                 <img
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2000&auto=format&fit=crop"
+                  src="/samuel.jpeg"
                   alt="Samuel Kennedy"
                   className="w-28 h-28 rounded-2xl object-cover border-2 border-blue-400/40 shadow-xl"
-                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="text-center md:text-left">

@@ -112,7 +112,7 @@ export default function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-white font-sans text-slate-800 selection:bg-blue-200 antialiased">
+    <div className="min-h-screen bg-white font-sans text-slate-800 selection:bg-blue-200 antialiased overflow-x-hidden w-full">
 
       {/* Floating WhatsApp Button */}
       <motion.a

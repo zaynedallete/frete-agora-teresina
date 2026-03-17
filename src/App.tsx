@@ -21,6 +21,7 @@ import {
   Clock,
   Star,
   CheckCircle,
+  Bike,
 } from 'lucide-react';
 
 const WHATSAPP_NUMBER = "5586994390807";
@@ -89,6 +90,7 @@ export default function App() {
     { icon: Building2, title: "Mudanças Comerciais", desc: "Transferência de escritórios e lojas com mínimo impacto no seu negócio.", color: "from-emerald-500 to-teal-600" },
     { icon: Package, title: "Transporte de Móveis", desc: "Coleta e entrega de móveis novos ou usados com proteção adequada.", color: "from-purple-500 to-violet-600" },
     { icon: CalendarClock, title: "Entregas Programadas", desc: "Agende o melhor dia e horário para o seu transporte. Pontualidade garantida.", color: "from-rose-500 to-pink-600" },
+    { icon: Bike, title: "Reboque de Moto 24h", desc: "Sua moto quebrou ou sofreu um acidente? Atendemos a qualquer hora do dia ou da noite em Teresina e região.", color: "from-red-500 to-orange-600" },
   ];
 
   const steps = [
